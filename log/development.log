@@ -6842,3 +6842,1330 @@ Rendering template within layouts/application
 Rendering posts/edit
   [4;35;1mThing Load (0.3ms)[0m   [0mSELECT * FROM "things" WHERE ("things".post_id = 4) LIMIT 1[0m
 Completed in 26ms (View: 20, DB: 1) | 200 OK [http://localhost/posts/4/edit]
+
+
+Processing PostsController#edit to haml (for 127.0.0.1 at 2009-10-12 00:01:53) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 4) [0m
+Rendering template within layouts/application
+Rendering posts/edit
+  [4;35;1mThing Load (0.3ms)[0m   [0mSELECT * FROM "things" WHERE ("things".post_id = 4) LIMIT 1[0m
+Completed in 118ms (View: 28, DB: 1) | 200 OK [http://localhost/posts/4/edit.haml]
+
+
+Processing PostsController#edit to erb (for 127.0.0.1 at 2009-10-12 00:02:00) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 4) [0m
+Rendering template within layouts/application
+Rendering posts/edit
+  [4;35;1mThing Load (0.3ms)[0m   [0mSELECT * FROM "things" WHERE ("things".post_id = 4) LIMIT 1[0m
+Completed in 29ms (View: 22, DB: 1) | 200 OK [http://localhost/posts/4/edit.erb]
+
+
+Processing PostsController#edit to haml (for 127.0.0.1 at 2009-10-12 00:02:01) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 4) [0m
+Rendering template within layouts/application
+Rendering posts/edit
+  [4;35;1mThing Load (0.3ms)[0m   [0mSELECT * FROM "things" WHERE ("things".post_id = 4) LIMIT 1[0m
+Completed in 23ms (View: 17, DB: 1) | 200 OK [http://localhost/posts/4/edit.haml]
+
+
+Processing PostsController#edit to erb (for 127.0.0.1 at 2009-10-12 00:02:02) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 4) [0m
+Rendering template within layouts/application
+Rendering posts/edit
+  [4;35;1mThing Load (0.3ms)[0m   [0mSELECT * FROM "things" WHERE ("things".post_id = 4) LIMIT 1[0m
+Completed in 92ms (View: 86, DB: 1) | 200 OK [http://localhost/posts/4/edit.erb]
+
+
+Processing PostsController#edit to haml (for 127.0.0.1 at 2009-10-12 00:02:03) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 4) [0m
+Rendering template within layouts/application
+Rendering posts/edit
+  [4;35;1mThing Load (0.3ms)[0m   [0mSELECT * FROM "things" WHERE ("things".post_id = 4) LIMIT 1[0m
+Completed in 24ms (View: 18, DB: 1) | 200 OK [http://localhost/posts/4/edit.haml]
+
+
+Processing PostsController#edit to erb (for 127.0.0.1 at 2009-10-12 00:02:04) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 4) [0m
+Rendering template within layouts/application
+Rendering posts/edit
+  [4;35;1mThing Load (0.3ms)[0m   [0mSELECT * FROM "things" WHERE ("things".post_id = 4) LIMIT 1[0m
+Completed in 24ms (View: 17, DB: 1) | 200 OK [http://localhost/posts/4/edit.erb]
+
+
+Processing PostsController#edit to haml (for 127.0.0.1 at 2009-10-12 00:02:04) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 4) [0m
+Rendering template within layouts/application
+Rendering posts/edit
+  [4;35;1mThing Load (0.3ms)[0m   [0mSELECT * FROM "things" WHERE ("things".post_id = 4) LIMIT 1[0m
+Completed in 28ms (View: 19, DB: 1) | 200 OK [http://localhost/posts/4/edit.haml]
+
+
+Processing PostsController#edit to erb (for 127.0.0.1 at 2009-10-12 00:02:05) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 4) [0m
+Rendering template within layouts/application
+Rendering posts/edit
+  [4;35;1mThing Load (0.3ms)[0m   [0mSELECT * FROM "things" WHERE ("things".post_id = 4) LIMIT 1[0m
+Completed in 25ms (View: 18, DB: 1) | 200 OK [http://localhost/posts/4/edit.erb]
+
+
+Processing PostsController#edit to haml (for 127.0.0.1 at 2009-10-12 00:02:06) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 4) [0m
+Rendering template within layouts/application
+Rendering posts/edit
+  [4;35;1mThing Load (0.3ms)[0m   [0mSELECT * FROM "things" WHERE ("things".post_id = 4) LIMIT 1[0m
+Completed in 26ms (View: 20, DB: 1) | 200 OK [http://localhost/posts/4/edit.haml]
+
+
+Processing PostsController#update (for 127.0.0.1 at 2009-10-12 00:02:08) [PUT]
+  Parameters: {"commit"=>"Save Post", "post"=>{"thing_attributes"=>{"id"=>"6"}, "body"=>"wewe", "title"=>"11111111111", "published"=>"0"}, "authenticity_token"=>"IOJiK0yKEmTBLYZMIfkIgS8jWM6VtuEqcAvC01P/w2Q=", "id"=>"4"}
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 4) [0m
+  [4;35;1mThing Load (0.3ms)[0m   [0mSELECT * FROM "things" WHERE ("things".post_id = 4) LIMIT 1[0m
+Redirected to http://localhost:3000/posts/4
+Completed in 14ms (DB: 1) | 302 Found [http://localhost/posts/4]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-10-12 00:02:08) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 4) [0m
+Rendering template within layouts/application
+Rendering posts/show
+Completed in 11ms (View: 5, DB: 0) | 200 OK [http://localhost/posts/4]
+
+
+Processing PostsController#update (for 127.0.0.1 at 2009-10-12 00:02:26) [PUT]
+  Parameters: {"commit"=>"Update Post", "post"=>{"body"=>"wewe", "title"=>"11111111111", "published"=>"0", "thing"=>{"name"=>"wewe", "about"=>"wewddd"}}, "authenticity_token"=>"IOJiK0yKEmTBLYZMIfkIgS8jWM6VtuEqcAvC01P/w2Q=", "id"=>"4"}
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 4) [0m
+  [4;36;1mThing Load (0.3ms)[0m   [0;1mSELECT * FROM "things" WHERE ("things".post_id = 4) LIMIT 1[0m
+  [4;35;1mThing Destroy (0.6ms)[0m   [0mDELETE FROM "things" WHERE "id" = 6[0m
+
+ActiveRecord::AssociationTypeMismatch (Thing(#2176201820) expected, got HashWithIndifferentAccess(#2159325680)):
+  app/controllers/posts_controller.rb:65:in `update'
+  app/controllers/posts_controller.rb:64:in `update'
+  haml (2.2.7) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (37.0ms)
+Rendered rescues/_request_and_response (1.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PostsController#new (for 127.0.0.1 at 2009-10-12 00:09:21) [GET]
+Rendering template within layouts/application
+Rendering posts/new
+Completed in 39ms (View: 30, DB: 0) | 200 OK [http://localhost/posts/new]
+
+
+Processing PostsController#create (for 127.0.0.1 at 2009-10-12 00:09:38) [POST]
+  Parameters: {"commit"=>"Create Post", "post"=>{"thing_attributes"=>{"name"=>"", "about"=>""}, "body"=>"", "title"=>"2323", "published"=>"0"}, "authenticity_token"=>"IOJiK0yKEmTBLYZMIfkIgS8jWM6VtuEqcAvC01P/w2Q="}
+  [4;36;1mPost Create (15.8ms)[0m   [0;1mINSERT INTO "posts" ("created_at", "title", "body", "published", "updated_at") VALUES('2009-10-11 22:09:38', '2323', '', 'f', '2009-10-11 22:09:38')[0m
+  [4;35;1mThing Create (69.1ms)[0m   [0mINSERT INTO "things" ("name", "created_at", "updated_at", "post_id", "about") VALUES('', '2009-10-11 22:09:38', '2009-10-11 22:09:38', 6, '')[0m
+Redirected to http://localhost:3000/posts/6
+Completed in 104ms (DB: 85) | 302 Found [http://localhost/posts]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-10-12 00:09:38) [GET]
+  Parameters: {"id"=>"6"}
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 6) [0m
+Rendering template within layouts/application
+Rendering posts/show
+Completed in 9ms (View: 3, DB: 0) | 200 OK [http://localhost/posts/6]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-10-12 00:09:40) [GET]
+  [4;35;1mPost Load (0.6ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+Completed in 13ms (View: 8, DB: 1) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#new (for 127.0.0.1 at 2009-10-12 00:09:42) [GET]
+Rendering template within layouts/application
+Rendering posts/new
+Completed in 23ms (View: 13, DB: 0) | 200 OK [http://localhost/posts/new]
+
+
+Processing PostsController#create (for 127.0.0.1 at 2009-10-12 00:09:46) [POST]
+  Parameters: {"commit"=>"Create Post", "post"=>{"thing_attributes"=>{"name"=>"", "about"=>""}, "body"=>"", "title"=>"2323", "published"=>"0"}, "authenticity_token"=>"IOJiK0yKEmTBLYZMIfkIgS8jWM6VtuEqcAvC01P/w2Q="}
+  [4;36;1mPost Create (0.5ms)[0m   [0;1mINSERT INTO "posts" ("created_at", "title", "body", "published", "updated_at") VALUES('2009-10-11 22:09:46', '2323', '', 'f', '2009-10-11 22:09:46')[0m
+  [4;35;1mThing Create (0.1ms)[0m   [0mINSERT INTO "things" ("name", "created_at", "updated_at", "post_id", "about") VALUES('', '2009-10-11 22:09:46', '2009-10-11 22:09:46', 7, '')[0m
+Redirected to http://localhost:3000/posts/7
+Completed in 19ms (DB: 1) | 302 Found [http://localhost/posts]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-10-12 00:09:46) [GET]
+  Parameters: {"id"=>"7"}
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 7) [0m
+Rendering template within layouts/application
+Rendering posts/show
+Completed in 9ms (View: 3, DB: 0) | 200 OK [http://localhost/posts/7]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-10-12 00:09:47) [GET]
+  [4;35;1mPost Load (0.7ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+Completed in 13ms (View: 7, DB: 1) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#edit (for 127.0.0.1 at 2009-10-12 00:09:50) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 5) [0m
+Rendering template within layouts/application
+Rendering posts/edit
+  [4;35;1mThing Load (0.2ms)[0m   [0mSELECT * FROM "things" WHERE ("things".post_id = 5) LIMIT 1[0m
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.new_record?) on line #12 of app/views/posts/edit.html.erb:
+9:     <%= f.input :published %>
+10:   <% end %>
+11:   
+12:   <% f.inputs :title => '<strong>f.inputs(:for => @post.thing)</strong>', :for => :thing do |g| %>
+13:     <%= g.input :name %>
+14:     <%= g.input :about, :input_html => {:rows => 8} %>
+15:   <% end %>
+
+    /Library/Ruby/Gems/1.8/gems/justinfrench-formtastic-0.2.4/rails/./lib/formtastic.rb:330:in `semantic_fields_for'
+    /Library/Ruby/Gems/1.8/gems/justinfrench-formtastic-0.2.4/rails/./lib/formtastic.rb:421:in `inputs_for_nested_attributes'
+    /Library/Ruby/Gems/1.8/gems/justinfrench-formtastic-0.2.4/rails/./lib/formtastic.rb:250:in `inputs'
+    app/views/posts/edit.html.erb:12
+    haml (2.2.7) lib/haml/helpers/action_view_mods.rb:169:in `form_for'
+    /Library/Ruby/Gems/1.8/gems/justinfrench-formtastic-0.2.4/rails/./lib/formtastic.rb:1323:in `semantic_form_for'
+    app/views/posts/edit.html.erb:3
+    haml (2.2.7) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.7) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/posts_controller.rb:41:in `edit'
+    app/controllers/posts_controller.rb:40:in `edit'
+    haml (2.2.7) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (55.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PostsController#new (for 127.0.0.1 at 2009-10-12 00:11:04) [GET]
+Rendering template within layouts/application
+Rendering posts/new
+Completed in 19ms (View: 11, DB: 0) | 200 OK [http://localhost/posts/new]
+
+
+Processing PostsController#new to haml (for 127.0.0.1 at 2009-10-12 00:11:06) [GET]
+Rendering template within layouts/application
+Rendering posts/new
+Completed in 28ms (View: 19, DB: 0) | 200 OK [http://localhost/posts/new.haml]
+
+
+Processing PostsController#create (for 127.0.0.1 at 2009-10-12 00:11:21) [POST]
+  Parameters: {"commit"=>"Create Post", "post"=>{"thing_attributes"=>{"name"=>"wewe", "about"=>"ewe"}, "body"=>"2323", "title"=>"232323", "published"=>"0"}, "authenticity_token"=>"IOJiK0yKEmTBLYZMIfkIgS8jWM6VtuEqcAvC01P/w2Q="}
+  [4;36;1mPost Create (0.4ms)[0m   [0;1mINSERT INTO "posts" ("created_at", "title", "body", "published", "updated_at") VALUES('2009-10-11 22:11:21', '232323', '2323', 'f', '2009-10-11 22:11:21')[0m
+  [4;35;1mThing Create (0.1ms)[0m   [0mINSERT INTO "things" ("name", "created_at", "updated_at", "post_id", "about") VALUES('wewe', '2009-10-11 22:11:21', '2009-10-11 22:11:21', 8, 'ewe')[0m
+Redirected to http://localhost:3000/posts/8
+Completed in 19ms (DB: 1) | 302 Found [http://localhost/posts]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-10-12 00:11:21) [GET]
+  Parameters: {"id"=>"8"}
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 8) [0m
+Rendering template within layouts/application
+Rendering posts/show
+Completed in 9ms (View: 3, DB: 0) | 200 OK [http://localhost/posts/8]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-10-12 00:11:22) [GET]
+  [4;35;1mPost Load (0.7ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+Completed in 78ms (View: 7, DB: 1) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#new (for 127.0.0.1 at 2009-10-12 00:11:25) [GET]
+Rendering template within layouts/application
+Rendering posts/new
+Completed in 23ms (View: 15, DB: 0) | 200 OK [http://localhost/posts/new]
+
+
+Processing PostsController#new to haml (for 127.0.0.1 at 2009-10-12 00:11:28) [GET]
+Rendering template within layouts/application
+Rendering posts/new
+Completed in 21ms (View: 13, DB: 0) | 200 OK [http://localhost/posts/new.haml]
+
+
+Processing PostsController#create (for 127.0.0.1 at 2009-10-12 00:11:37) [POST]
+  Parameters: {"commit"=>"Create Post", "post"=>{"body"=>"wewewe", "title"=>"23232", "published"=>"0"}, "authenticity_token"=>"IOJiK0yKEmTBLYZMIfkIgS8jWM6VtuEqcAvC01P/w2Q="}
+  [4;36;1mPost Create (1.7ms)[0m   [0;1mINSERT INTO "posts" ("created_at", "title", "body", "published", "updated_at") VALUES('2009-10-11 22:11:37', '23232', 'wewewe', 'f', '2009-10-11 22:11:37')[0m
+Redirected to http://localhost:3000/posts/9
+Completed in 14ms (DB: 2) | 302 Found [http://localhost/posts]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-10-12 00:11:37) [GET]
+  Parameters: {"id"=>"9"}
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 9) [0m
+Rendering template within layouts/application
+Rendering posts/show
+Completed in 9ms (View: 3, DB: 0) | 200 OK [http://localhost/posts/9]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-10-12 00:11:38) [GET]
+  [4;36;1mPost Load (0.8ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+Completed in 77ms (View: 7, DB: 1) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#edit (for 127.0.0.1 at 2009-10-12 00:11:40) [GET]
+  Parameters: {"id"=>"8"}
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 8) [0m
+Rendering template within layouts/application
+Rendering posts/edit
+  [4;36;1mThing Load (0.3ms)[0m   [0;1mSELECT * FROM "things" WHERE ("things".post_id = 8) LIMIT 1[0m
+Completed in 22ms (View: 16, DB: 1) | 200 OK [http://localhost/posts/8/edit]
+
+
+Processing PostsController#edit (for 127.0.0.1 at 2009-10-12 00:12:42) [GET]
+  Parameters: {"id"=>"8"}
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 8) [0m
+Rendering template within layouts/application
+Rendering posts/edit
+  [4;36;1mThing Load (0.3ms)[0m   [0;1mSELECT * FROM "things" WHERE ("things".post_id = 8) LIMIT 1[0m
+Completed in 22ms (View: 16, DB: 1) | 200 OK [http://localhost/posts/8/edit]
+
+
+Processing PostsController#edit (for 127.0.0.1 at 2009-10-12 00:16:15) [GET]
+  Parameters: {"id"=>"8"}
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 8) [0m
+Rendering template within layouts/application
+Rendering posts/edit
+  [4;36;1mThing Load (0.4ms)[0m   [0;1mSELECT * FROM "things" WHERE ("things".post_id = 8) LIMIT 1[0m
+Completed in 48ms (View: 42, DB: 1) | 200 OK [http://localhost/posts/8/edit]
+
+
+Processing PostsController#edit (for 127.0.0.1 at 2009-10-12 00:18:39) [GET]
+  Parameters: {"id"=>"8"}
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 8) [0m
+Rendering template within layouts/application
+Rendering posts/edit
+  [4;36;1mThing Load (0.3ms)[0m   [0;1mSELECT * FROM "things" WHERE ("things".post_id = 8) LIMIT 1[0m
+Completed in 28ms (View: 21, DB: 1) | 200 OK [http://localhost/posts/8/edit]
+
+
+Processing PostsController#edit (for 127.0.0.1 at 2009-10-12 00:18:57) [GET]
+  Parameters: {"id"=>"8"}
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 8) [0m
+Rendering template within layouts/application
+Rendering posts/edit
+  [4;36;1mThing Load (0.3ms)[0m   [0;1mSELECT * FROM "things" WHERE ("things".post_id = 8) LIMIT 1[0m
+Completed in 26ms (View: 20, DB: 1) | 200 OK [http://localhost/posts/8/edit]
+
+
+Processing PostsController#edit (for 127.0.0.1 at 2009-10-12 00:19:18) [GET]
+  Parameters: {"id"=>"8"}
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 8) [0m
+Rendering template within layouts/application
+Rendering posts/edit
+  [4;36;1mThing Load (0.3ms)[0m   [0;1mSELECT * FROM "things" WHERE ("things".post_id = 8) LIMIT 1[0m
+Completed in 23ms (View: 16, DB: 1) | 200 OK [http://localhost/posts/8/edit]
+
+
+Processing PostsController#edit to haml (for 127.0.0.1 at 2009-10-12 00:19:21) [GET]
+  Parameters: {"id"=>"8"}
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 8) [0m
+Rendering template within layouts/application
+Rendering posts/edit
+  [4;36;1mThing Load (0.3ms)[0m   [0;1mSELECT * FROM "things" WHERE ("things".post_id = 8) LIMIT 1[0m
+Completed in 31ms (View: 24, DB: 1) | 200 OK [http://localhost/posts/8/edit.haml]
+
+
+Processing PostsController#edit to erb (for 127.0.0.1 at 2009-10-12 00:19:22) [GET]
+  Parameters: {"id"=>"8"}
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 8) [0m
+Rendering template within layouts/application
+Rendering posts/edit
+  [4;36;1mThing Load (0.3ms)[0m   [0;1mSELECT * FROM "things" WHERE ("things".post_id = 8) LIMIT 1[0m
+Completed in 22ms (View: 17, DB: 0) | 200 OK [http://localhost/posts/8/edit.erb]
+
+
+Processing PostsController#edit to haml (for 127.0.0.1 at 2009-10-12 00:19:22) [GET]
+  Parameters: {"id"=>"8"}
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 8) [0m
+Rendering template within layouts/application
+Rendering posts/edit
+  [4;36;1mThing Load (0.3ms)[0m   [0;1mSELECT * FROM "things" WHERE ("things".post_id = 8) LIMIT 1[0m
+Completed in 25ms (View: 18, DB: 1) | 200 OK [http://localhost/posts/8/edit.haml]
+
+
+Processing PostsController#edit to erb (for 127.0.0.1 at 2009-10-12 00:19:25) [GET]
+  Parameters: {"id"=>"8"}
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 8) [0m
+Rendering template within layouts/application
+Rendering posts/edit
+  [4;36;1mThing Load (0.4ms)[0m   [0;1mSELECT * FROM "things" WHERE ("things".post_id = 8) LIMIT 1[0m
+Completed in 89ms (View: 17, DB: 1) | 200 OK [http://localhost/posts/8/edit.erb]
+
+
+Processing PostsController#edit to erb (for 127.0.0.1 at 2009-10-12 00:20:45) [GET]
+  Parameters: {"id"=>"8"}
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 8) [0m
+Rendering template within layouts/application
+Rendering posts/edit
+  [4;36;1mThing Load (0.3ms)[0m   [0;1mSELECT * FROM "things" WHERE ("things".post_id = 8) LIMIT 1[0m
+Completed in 22ms (View: 16, DB: 1) | 200 OK [http://localhost/posts/8/edit.erb]
+
+
+Processing PostsController#edit to erb (for 127.0.0.1 at 2009-10-12 00:20:51) [GET]
+  Parameters: {"id"=>"8"}
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 8) [0m
+Rendering template within layouts/application
+Rendering posts/edit
+  [4;36;1mThing Load (0.3ms)[0m   [0;1mSELECT * FROM "things" WHERE ("things".post_id = 8) LIMIT 1[0m
+Completed in 23ms (View: 17, DB: 1) | 200 OK [http://localhost/posts/8/edit.erb]
+
+
+Processing PostsController#edit to erb (for 127.0.0.1 at 2009-10-12 00:20:58) [GET]
+  Parameters: {"id"=>"8"}
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 8) [0m
+Rendering template within layouts/application
+Rendering posts/edit
+  [4;36;1mThing Load (0.3ms)[0m   [0;1mSELECT * FROM "things" WHERE ("things".post_id = 8) LIMIT 1[0m
+Completed in 23ms (View: 17, DB: 1) | 200 OK [http://localhost/posts/8/edit.erb]
+
+
+Processing PostsController#edit to haml (for 127.0.0.1 at 2009-10-12 00:21:40) [GET]
+  Parameters: {"id"=>"8"}
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 8) [0m
+Rendering template within layouts/application
+Rendering posts/edit
+  [4;36;1mThing Load (0.3ms)[0m   [0;1mSELECT * FROM "things" WHERE ("things".post_id = 8) LIMIT 1[0m
+Completed in 23ms (View: 18, DB: 1) | 200 OK [http://localhost/posts/8/edit.haml]
+
+
+Processing PostsController#edit to erb (for 127.0.0.1 at 2009-10-12 00:21:41) [GET]
+  Parameters: {"id"=>"8"}
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 8) [0m
+Rendering template within layouts/application
+Rendering posts/edit
+  [4;36;1mThing Load (0.4ms)[0m   [0;1mSELECT * FROM "things" WHERE ("things".post_id = 8) LIMIT 1[0m
+Completed in 23ms (View: 17, DB: 1) | 200 OK [http://localhost/posts/8/edit.erb]
+
+
+Processing PostsController#edit to haml (for 127.0.0.1 at 2009-10-12 00:21:42) [GET]
+  Parameters: {"id"=>"8"}
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 8) [0m
+Rendering template within layouts/application
+Rendering posts/edit
+  [4;36;1mThing Load (0.3ms)[0m   [0;1mSELECT * FROM "things" WHERE ("things".post_id = 8) LIMIT 1[0m
+Completed in 89ms (View: 83, DB: 1) | 200 OK [http://localhost/posts/8/edit.haml]
+
+
+Processing PostsController#edit to haml (for 127.0.0.1 at 2009-10-12 00:23:45) [GET]
+  Parameters: {"id"=>"8"}
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 8) [0m
+Rendering template within layouts/application
+Rendering posts/edit
+  [4;36;1mThing Load (0.3ms)[0m   [0;1mSELECT * FROM "things" WHERE ("things".post_id = 8) LIMIT 1[0m
+Completed in 24ms (View: 17, DB: 1) | 200 OK [http://localhost/posts/8/edit.haml]
+
+
+Processing PostsController#edit to haml (for 127.0.0.1 at 2009-10-12 00:23:47) [GET]
+  Parameters: {"id"=>"8"}
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 8) [0m
+Rendering template within layouts/application
+Rendering posts/edit
+  [4;36;1mThing Load (0.3ms)[0m   [0;1mSELECT * FROM "things" WHERE ("things".post_id = 8) LIMIT 1[0m
+Completed in 23ms (View: 16, DB: 1) | 200 OK [http://localhost/posts/8/edit.haml]
+
+
+Processing PostsController#edit to erb (for 127.0.0.1 at 2009-10-12 00:23:47) [GET]
+  Parameters: {"id"=>"8"}
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 8) [0m
+Rendering template within layouts/application
+Rendering posts/edit
+  [4;36;1mThing Load (0.3ms)[0m   [0;1mSELECT * FROM "things" WHERE ("things".post_id = 8) LIMIT 1[0m
+Completed in 23ms (View: 17, DB: 1) | 200 OK [http://localhost/posts/8/edit.erb]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-10-12 00:23:54) [GET]
+  [4;35;1mPost Load (0.8ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+Completed in 13ms (View: 7, DB: 1) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#edit (for 127.0.0.1 at 2009-10-12 00:23:56) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 5) [0m
+Rendering template within layouts/application
+Rendering posts/edit
+  [4;35;1mThing Load (0.2ms)[0m   [0mSELECT * FROM "things" WHERE ("things".post_id = 5) LIMIT 1[0m
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.new_record?) on line #12 of app/views/posts/edit.html.erb:
+9:     <%= f.input :published %>
+10:   <% end %>
+11:   
+12:   <% f.inputs :title => '<strong>f.inputs(:for => :thing)</strong>', :for => :thing do |g| %>
+13:     <%= g.input :name %>
+14:     <%= g.input :about, :input_html => {:rows => 8} %>
+15:   <% end %>
+
+    /Library/Ruby/Gems/1.8/gems/justinfrench-formtastic-0.2.4/rails/./lib/formtastic.rb:330:in `semantic_fields_for'
+    /Library/Ruby/Gems/1.8/gems/justinfrench-formtastic-0.2.4/rails/./lib/formtastic.rb:421:in `inputs_for_nested_attributes'
+    /Library/Ruby/Gems/1.8/gems/justinfrench-formtastic-0.2.4/rails/./lib/formtastic.rb:250:in `inputs'
+    app/views/posts/edit.html.erb:12
+    haml (2.2.7) lib/haml/helpers/action_view_mods.rb:169:in `form_for'
+    /Library/Ruby/Gems/1.8/gems/justinfrench-formtastic-0.2.4/rails/./lib/formtastic.rb:1323:in `semantic_form_for'
+    app/views/posts/edit.html.erb:3
+    haml (2.2.7) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.7) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/posts_controller.rb:41:in `edit'
+    app/controllers/posts_controller.rb:40:in `edit'
+    haml (2.2.7) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (50.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PostsController#new (for 127.0.0.1 at 2009-10-12 00:24:02) [GET]
+Rendering template within layouts/application
+Rendering posts/new
+Completed in 25ms (View: 16, DB: 0) | 200 OK [http://localhost/posts/new]
+
+
+Processing PostsController#new to haml (for 127.0.0.1 at 2009-10-12 00:24:04) [GET]
+Rendering template within layouts/application
+Rendering posts/new
+Completed in 26ms (View: 18, DB: 0) | 200 OK [http://localhost/posts/new.haml]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-10-12 00:24:08) [GET]
+  [4;36;1mPost Load (0.9ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+Completed in 13ms (View: 7, DB: 1) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#edit (for 127.0.0.1 at 2009-10-12 00:24:11) [GET]
+  Parameters: {"id"=>"4"}
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 4) [0m
+Rendering template within layouts/application
+Rendering posts/edit
+  [4;36;1mThing Load (0.2ms)[0m   [0;1mSELECT * FROM "things" WHERE ("things".post_id = 4) LIMIT 1[0m
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.new_record?) on line #12 of app/views/posts/edit.html.erb:
+9:     <%= f.input :published %>
+10:   <% end %>
+11:   
+12:   <% f.inputs :title => '<strong>f.inputs(:for => :thing)</strong>', :for => :thing do |g| %>
+13:     <%= g.input :name %>
+14:     <%= g.input :about, :input_html => {:rows => 8} %>
+15:   <% end %>
+
+    /Library/Ruby/Gems/1.8/gems/justinfrench-formtastic-0.2.4/rails/./lib/formtastic.rb:330:in `semantic_fields_for'
+    /Library/Ruby/Gems/1.8/gems/justinfrench-formtastic-0.2.4/rails/./lib/formtastic.rb:421:in `inputs_for_nested_attributes'
+    /Library/Ruby/Gems/1.8/gems/justinfrench-formtastic-0.2.4/rails/./lib/formtastic.rb:250:in `inputs'
+    app/views/posts/edit.html.erb:12
+    haml (2.2.7) lib/haml/helpers/action_view_mods.rb:169:in `form_for'
+    /Library/Ruby/Gems/1.8/gems/justinfrench-formtastic-0.2.4/rails/./lib/formtastic.rb:1323:in `semantic_form_for'
+    app/views/posts/edit.html.erb:3
+    haml (2.2.7) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.7) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/posts_controller.rb:41:in `edit'
+    app/controllers/posts_controller.rb:40:in `edit'
+    haml (2.2.7) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (50.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PostsController#edit (for 127.0.0.1 at 2009-10-12 00:25:35) [GET]
+  Parameters: {"id"=>"4"}
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 4) [0m
+  [4;36;1mThing Load (0.2ms)[0m   [0;1mSELECT * FROM "things" WHERE ("things".post_id = 4) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering posts/edit
+Completed in 23ms (View: 11, DB: 0) | 200 OK [http://localhost/posts/4/edit]
+
+
+Processing PostsController#edit to haml (for 127.0.0.1 at 2009-10-12 00:25:40) [GET]
+  Parameters: {"id"=>"4"}
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 4) [0m
+  [4;36;1mThing Load (0.2ms)[0m   [0;1mSELECT * FROM "things" WHERE ("things".post_id = 4) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering posts/edit
+Completed in 93ms (View: 83, DB: 0) | 200 OK [http://localhost/posts/4/edit.haml]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-10-12 00:25:42) [GET]
+  [4;35;1mPost Load (0.7ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+Completed in 13ms (View: 7, DB: 1) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#new (for 127.0.0.1 at 2009-10-12 00:25:45) [GET]
+Rendering template within layouts/application
+Rendering posts/new
+Completed in 20ms (View: 11, DB: 0) | 200 OK [http://localhost/posts/new]
+
+
+Processing PostsController#new (for 127.0.0.1 at 2009-10-12 00:25:54) [GET]
+Rendering template within layouts/application
+Rendering posts/new
+Completed in 142ms (View: 23, DB: 0) | 200 OK [http://localhost/posts/new]
+
+
+Processing PostsController#new to haml (for 127.0.0.1 at 2009-10-12 00:25:56) [GET]
+Rendering template within layouts/application
+Rendering posts/new
+Completed in 30ms (View: 21, DB: 0) | 200 OK [http://localhost/posts/new.haml]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-10-12 00:25:58) [GET]
+  [4;36;1mPost Load (0.7ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+Completed in 19ms (View: 13, DB: 1) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#edit (for 127.0.0.1 at 2009-10-12 00:26:01) [GET]
+  Parameters: {"id"=>"4"}
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 4) [0m
+  [4;36;1mThing Load (0.2ms)[0m   [0;1mSELECT * FROM "things" WHERE ("things".post_id = 4) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering posts/edit
+Completed in 93ms (View: 82, DB: 0) | 200 OK [http://localhost/posts/4/edit]
+
+
+Processing PostsController#edit (for 127.0.0.1 at 2009-10-12 00:26:14) [GET]
+  Parameters: {"id"=>"4"}
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 4) [0m
+  [4;36;1mThing Load (0.2ms)[0m   [0;1mSELECT * FROM "things" WHERE ("things".post_id = 4) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering posts/edit
+Completed in 23ms (View: 13, DB: 0) | 200 OK [http://localhost/posts/4/edit]
+
+
+Processing PostsController#edit to haml (for 127.0.0.1 at 2009-10-12 00:26:16) [GET]
+  Parameters: {"id"=>"4"}
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 4) [0m
+  [4;36;1mThing Load (0.2ms)[0m   [0;1mSELECT * FROM "things" WHERE ("things".post_id = 4) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering posts/edit
+Completed in 30ms (View: 19, DB: 0) | 200 OK [http://localhost/posts/4/edit.haml]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-10-12 00:26:17) [GET]
+  [4;35;1mPost Load (0.8ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+Completed in 13ms (View: 7, DB: 1) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#edit (for 127.0.0.1 at 2009-10-12 00:26:19) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 4) [0m
+  [4;35;1mThing Load (0.2ms)[0m   [0mSELECT * FROM "things" WHERE ("things".post_id = 4) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering posts/edit
+Completed in 89ms (View: 77, DB: 0) | 200 OK [http://localhost/posts/4/edit]
+
+
+Processing PostsController#edit to haml (for 127.0.0.1 at 2009-10-12 00:26:25) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 4) [0m
+  [4;35;1mThing Load (0.2ms)[0m   [0mSELECT * FROM "things" WHERE ("things".post_id = 4) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering posts/edit
+Completed in 22ms (View: 12, DB: 0) | 200 OK [http://localhost/posts/4/edit.haml]
+
+
+Processing PostsController#edit to haml (for 127.0.0.1 at 2009-10-12 00:26:56) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 4) [0m
+  [4;35;1mThing Load (0.2ms)[0m   [0mSELECT * FROM "things" WHERE ("things".post_id = 4) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering posts/edit
+Completed in 24ms (View: 13, DB: 0) | 200 OK [http://localhost/posts/4/edit.haml]
+
+
+Processing PostsController#edit to haml (for 127.0.0.1 at 2009-10-12 00:26:57) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 4) [0m
+  [4;35;1mThing Load (0.2ms)[0m   [0mSELECT * FROM "things" WHERE ("things".post_id = 4) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering posts/edit
+Completed in 22ms (View: 11, DB: 0) | 200 OK [http://localhost/posts/4/edit.haml]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-10-12 00:26:58) [GET]
+  [4;36;1mPost Load (0.7ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+Completed in 13ms (View: 7, DB: 1) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#edit (for 127.0.0.1 at 2009-10-12 00:27:00) [GET]
+  Parameters: {"id"=>"4"}
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 4) [0m
+  [4;36;1mThing Load (0.3ms)[0m   [0;1mSELECT * FROM "things" WHERE ("things".post_id = 4) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering posts/edit
+Completed in 24ms (View: 13, DB: 1) | 200 OK [http://localhost/posts/4/edit]
+
+
+Processing PostsController#edit to haml (for 127.0.0.1 at 2009-10-12 00:27:02) [GET]
+  Parameters: {"id"=>"4"}
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 4) [0m
+  [4;36;1mThing Load (0.2ms)[0m   [0;1mSELECT * FROM "things" WHERE ("things".post_id = 4) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering posts/edit
+Completed in 23ms (View: 12, DB: 0) | 200 OK [http://localhost/posts/4/edit.haml]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-10-12 00:27:03) [GET]
+  [4;35;1mPost Load (0.7ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+Completed in 13ms (View: 7, DB: 1) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#new (for 127.0.0.1 at 2009-10-12 00:27:09) [GET]
+Rendering template within layouts/application
+Rendering posts/new
+Completed in 100ms (View: 20, DB: 0) | 200 OK [http://localhost/posts/new]
+
+
+Processing PostsController#new to erb (for 127.0.0.1 at 2009-10-12 00:27:11) [GET]
+Rendering template within layouts/application
+Rendering posts/new
+Completed in 22ms (View: 13, DB: 0) | 200 OK [http://localhost/posts/new.erb]
+
+
+Processing PostsController#new to haml (for 127.0.0.1 at 2009-10-12 00:27:12) [GET]
+Rendering template within layouts/application
+Rendering posts/new
+Completed in 30ms (View: 20, DB: 0) | 200 OK [http://localhost/posts/new.haml]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-10-12 00:27:14) [GET]
+  [4;36;1mPost Load (0.7ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+Completed in 16ms (View: 10, DB: 1) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#edit (for 127.0.0.1 at 2009-10-12 00:27:24) [GET]
+  Parameters: {"id"=>"4"}
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 4) [0m
+  [4;36;1mThing Load (0.2ms)[0m   [0;1mSELECT * FROM "things" WHERE ("things".post_id = 4) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering posts/edit
+Completed in 25ms (View: 15, DB: 0) | 200 OK [http://localhost/posts/4/edit]
+
+
+Processing PostsController#edit (for 127.0.0.1 at 2009-10-12 00:28:11) [GET]
+  Parameters: {"id"=>"4"}
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 4) [0m
+  [4;36;1mThing Load (0.2ms)[0m   [0;1mSELECT * FROM "things" WHERE ("things".post_id = 4) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering posts/edit
+Completed in 22ms (View: 10, DB: 0) | 200 OK [http://localhost/posts/4/edit]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-10-12 00:28:13) [GET]
+  [4;35;1mPost Load (0.8ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+Completed in 13ms (View: 7, DB: 1) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#new (for 127.0.0.1 at 2009-10-12 00:28:14) [GET]
+Rendering template within layouts/application
+Rendering posts/new
+Completed in 21ms (View: 11, DB: 0) | 200 OK [http://localhost/posts/new]
+
+
+Processing PostsController#new to haml (for 127.0.0.1 at 2009-10-12 00:28:16) [GET]
+Rendering template within layouts/application
+Rendering posts/new
+Completed in 21ms (View: 12, DB: 0) | 200 OK [http://localhost/posts/new.haml]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-10-12 00:28:17) [GET]
+  [4;36;1mPost Load (0.8ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+Completed in 13ms (View: 8, DB: 1) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#new (for 127.0.0.1 at 2009-10-12 00:28:18) [GET]
+Rendering template within layouts/application
+Rendering posts/new
+Completed in 22ms (View: 12, DB: 0) | 200 OK [http://localhost/posts/new]
+
+
+Processing PostsController#new to haml (for 127.0.0.1 at 2009-10-12 00:28:25) [GET]
+Rendering template within layouts/application
+Rendering posts/new
+Completed in 21ms (View: 12, DB: 0) | 200 OK [http://localhost/posts/new.haml]
+
+
+Processing PostsController#new to erb (for 127.0.0.1 at 2009-10-12 00:28:26) [GET]
+Rendering template within layouts/application
+Rendering posts/new
+Completed in 87ms (View: 12, DB: 0) | 200 OK [http://localhost/posts/new.erb]
+
+
+Processing PostsController#new to erb (for 127.0.0.1 at 2009-10-12 00:28:27) [GET]
+Rendering template within layouts/application
+Rendering posts/new
+Completed in 19ms (View: 11, DB: 0) | 200 OK [http://localhost/posts/new.erb]
+
+
+Processing PostsController#new to haml (for 127.0.0.1 at 2009-10-12 00:28:29) [GET]
+Rendering template within layouts/application
+Rendering posts/new
+Completed in 20ms (View: 11, DB: 0) | 200 OK [http://localhost/posts/new.haml]
+
+
+Processing PostsController#new to erb (for 127.0.0.1 at 2009-10-12 00:28:30) [GET]
+Rendering template within layouts/application
+Rendering posts/new
+Completed in 21ms (View: 12, DB: 0) | 200 OK [http://localhost/posts/new.erb]
+
+
+Processing PostsController#new to haml (for 127.0.0.1 at 2009-10-12 00:28:31) [GET]
+Rendering template within layouts/application
+Rendering posts/new
+Completed in 86ms (View: 11, DB: 0) | 200 OK [http://localhost/posts/new.haml]
+
+
+Processing PostsController#new to erb (for 127.0.0.1 at 2009-10-12 00:28:32) [GET]
+Rendering template within layouts/application
+Rendering posts/new
+Completed in 22ms (View: 13, DB: 0) | 200 OK [http://localhost/posts/new.erb]
+
+
+Processing PostsController#new to haml (for 127.0.0.1 at 2009-10-12 00:28:33) [GET]
+Rendering template within layouts/application
+Rendering posts/new
+Completed in 20ms (View: 11, DB: 0) | 200 OK [http://localhost/posts/new.haml]
+
+
+Processing PostsController#new to haml (for 127.0.0.1 at 2009-10-12 00:28:54) [GET]
+Rendering template within layouts/application
+Rendering posts/new
+Completed in 20ms (View: 12, DB: 0) | 200 OK [http://localhost/posts/new.haml]
+
+
+Processing PostsController#new to haml (for 127.0.0.1 at 2009-10-12 00:28:56) [GET]
+Rendering template within layouts/application
+Rendering posts/new
+Completed in 20ms (View: 12, DB: 0) | 200 OK [http://localhost/posts/new.haml]
+
+
+Processing PostsController#new to erb (for 127.0.0.1 at 2009-10-12 00:28:56) [GET]
+Rendering template within layouts/application
+Rendering posts/new
+Completed in 21ms (View: 13, DB: 0) | 200 OK [http://localhost/posts/new.erb]
+
+
+Processing PostsController#new to erb (for 127.0.0.1 at 2009-10-12 00:28:57) [GET]
+Rendering template within layouts/application
+Rendering posts/new
+Completed in 21ms (View: 13, DB: 0) | 200 OK [http://localhost/posts/new.erb]
+
+
+Processing PostsController#new to erb (for 127.0.0.1 at 2009-10-12 00:28:58) [GET]
+Rendering template within layouts/application
+Rendering posts/new
+Completed in 21ms (View: 12, DB: 0) | 200 OK [http://localhost/posts/new.erb]
+
+
+Processing PostsController#new to haml (for 127.0.0.1 at 2009-10-12 00:28:59) [GET]
+Rendering template within layouts/application
+Rendering posts/new
+Completed in 20ms (View: 12, DB: 0) | 200 OK [http://localhost/posts/new.haml]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-10-12 00:29:11) [GET]
+  [4;35;1mPost Load (0.7ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+Completed in 13ms (View: 8, DB: 1) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#new (for 127.0.0.1 at 2009-10-12 00:29:12) [GET]
+Rendering template within layouts/application
+Rendering posts/new
+Completed in 22ms (View: 13, DB: 0) | 200 OK [http://localhost/posts/new]
+
+
+Processing PostsController#new to erb (for 127.0.0.1 at 2009-10-12 00:29:15) [GET]
+Rendering template within layouts/application
+Rendering posts/new
+Completed in 21ms (View: 13, DB: 0) | 200 OK [http://localhost/posts/new.erb]
+
+
+Processing PostsController#new to haml (for 127.0.0.1 at 2009-10-12 00:29:15) [GET]
+Rendering template within layouts/application
+Rendering posts/new
+Completed in 21ms (View: 12, DB: 0) | 200 OK [http://localhost/posts/new.haml]
+
+
+Processing PostsController#new to haml (for 127.0.0.1 at 2009-10-12 00:29:28) [GET]
+Rendering template within layouts/application
+Rendering posts/new
+Completed in 20ms (View: 11, DB: 0) | 200 OK [http://localhost/posts/new.haml]
+
+
+Processing PostsController#new to erb (for 127.0.0.1 at 2009-10-12 00:29:30) [GET]
+Rendering template within layouts/application
+Rendering posts/new
+Completed in 19ms (View: 11, DB: 0) | 200 OK [http://localhost/posts/new.erb]
+
+
+Processing PostsController#new to haml (for 127.0.0.1 at 2009-10-12 00:29:30) [GET]
+Rendering template within layouts/application
+Rendering posts/new
+Completed in 23ms (View: 14, DB: 0) | 200 OK [http://localhost/posts/new.haml]
+
+
+Processing PostsController#new to erb (for 127.0.0.1 at 2009-10-12 00:29:31) [GET]
+Rendering template within layouts/application
+Rendering posts/new
+Completed in 20ms (View: 11, DB: 0) | 200 OK [http://localhost/posts/new.erb]
+
+
+Processing PostsController#new to haml (for 127.0.0.1 at 2009-10-12 00:29:33) [GET]
+Rendering template within layouts/application
+Rendering posts/new
+Completed in 21ms (View: 12, DB: 0) | 200 OK [http://localhost/posts/new.haml]
+
+
+Processing PostsController#create (for 127.0.0.1 at 2009-10-12 00:29:35) [POST]
+  Parameters: {"commit"=>"Create Post", "post"=>{"body"=>"", "title"=>"", "published"=>"0"}, "authenticity_token"=>"IOJiK0yKEmTBLYZMIfkIgS8jWM6VtuEqcAvC01P/w2Q="}
+Rendering template within layouts/application
+Rendering posts/new
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.input) on line #13 of app/views/posts/new.html.haml:
+10:     
+11:   - f.inputs :title => '<strong>f.inputs(:for => :thing) <span class="fail">*FAIL*</span></strong>', :for => @post.thing do |g|
+12:     = g.input :name
+13:     = g.input :about
+14:     
+15:   - f.buttons do
+16:     = f.commit_button
+
+    app/views/posts/new.html.haml:13:in `_run_haml_app47views47posts47new46html46haml'
+    haml (2.2.7) lib/haml/helpers.rb:325:in `call'
+    haml (2.2.7) lib/haml/helpers.rb:325:in `capture_haml'
+    haml (2.2.7) lib/haml/helpers.rb:520:in `with_haml_buffer'
+    haml (2.2.7) lib/haml/helpers.rb:321:in `capture_haml'
+    haml (2.2.7) lib/haml/helpers/action_view_mods.rb:86:in `capture'
+    /Library/Ruby/Gems/1.8/gems/justinfrench-formtastic-0.2.4/rails/./lib/formtastic.rb:990:in `field_set_and_list_wrapping'
+    /Library/Ruby/Gems/1.8/gems/justinfrench-formtastic-0.2.4/rails/./lib/formtastic.rb:252:in `inputs'
+    app/views/posts/new.html.haml:11:in `_run_haml_app47views47posts47new46html46haml'
+    haml (2.2.7) lib/haml/helpers/action_view_mods.rb:163:in `call'
+    haml (2.2.7) lib/haml/helpers/action_view_mods.rb:163:in `form_for'
+    haml (2.2.7) lib/haml/helpers.rb:542:in `call'
+    haml (2.2.7) lib/haml/helpers.rb:542:in `haml_bind_proc'
+    haml (2.2.7) lib/haml/helpers/action_view_mods.rb:169:in `form_for'
+    /Library/Ruby/Gems/1.8/gems/justinfrench-formtastic-0.2.4/rails/./lib/formtastic.rb:1323:in `semantic_form_for'
+    app/views/posts/new.html.haml:3:in `_run_haml_app47views47posts47new46html46haml'
+    haml (2.2.7) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.7) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/posts_controller.rb:55:in `create'
+    app/controllers/posts_controller.rb:50:in `create'
+    haml (2.2.7) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (120.9ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PostsController#create (for 127.0.0.1 at 2009-10-12 00:30:28) [POST]
+  Parameters: {"commit"=>"Create Post", "post"=>{"body"=>"", "title"=>"", "published"=>"0"}, "authenticity_token"=>"IOJiK0yKEmTBLYZMIfkIgS8jWM6VtuEqcAvC01P/w2Q="}
+Rendering template within layouts/application
+Rendering posts/new
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.new_record?) on line #11 of app/views/posts/new.html.haml:
+8:     = f.input :body, :input_html => {:rows => 8}
+9:     = f.input :published
+10:     
+11:   - f.inputs :title => '<strong>f.inputs(:for => :thing) <span class="fail">*FAIL*</span></strong>', :for => :thing do |g|
+12:     = g.input :name
+13:     = g.input :about
+14:     
+
+    /Library/Ruby/Gems/1.8/gems/justinfrench-formtastic-0.2.4/rails/./lib/formtastic.rb:330:in `semantic_fields_for'
+    /Library/Ruby/Gems/1.8/gems/justinfrench-formtastic-0.2.4/rails/./lib/formtastic.rb:421:in `inputs_for_nested_attributes'
+    /Library/Ruby/Gems/1.8/gems/justinfrench-formtastic-0.2.4/rails/./lib/formtastic.rb:250:in `inputs'
+    app/views/posts/new.html.haml:11:in `_run_haml_app47views47posts47new46html46haml'
+    haml (2.2.7) lib/haml/helpers/action_view_mods.rb:163:in `call'
+    haml (2.2.7) lib/haml/helpers/action_view_mods.rb:163:in `form_for'
+    haml (2.2.7) lib/haml/helpers.rb:542:in `call'
+    haml (2.2.7) lib/haml/helpers.rb:542:in `haml_bind_proc'
+    haml (2.2.7) lib/haml/helpers/action_view_mods.rb:169:in `form_for'
+    /Library/Ruby/Gems/1.8/gems/justinfrench-formtastic-0.2.4/rails/./lib/formtastic.rb:1323:in `semantic_form_for'
+    app/views/posts/new.html.haml:3:in `_run_haml_app47views47posts47new46html46haml'
+    haml (2.2.7) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.7) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/posts_controller.rb:55:in `create'
+    app/controllers/posts_controller.rb:50:in `create'
+    haml (2.2.7) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (134.3ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PostsController#new (for 127.0.0.1 at 2009-10-12 00:30:33) [GET]
+Rendering template within layouts/application
+Rendering posts/new
+Completed in 20ms (View: 11, DB: 0) | 200 OK [http://localhost/posts/new]
+
+
+Processing PostsController#create (for 127.0.0.1 at 2009-10-12 00:30:36) [POST]
+  Parameters: {"commit"=>"Create Post", "post"=>{"thing_attributes"=>{"name"=>"", "about"=>""}, "body"=>"", "title"=>"", "published"=>"0"}, "authenticity_token"=>"IOJiK0yKEmTBLYZMIfkIgS8jWM6VtuEqcAvC01P/w2Q="}
+Rendering template within layouts/application
+Rendering posts/new
+Completed in 25ms (View: 11, DB: 0) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#create (for 127.0.0.1 at 2009-10-12 00:31:08) [POST]
+  Parameters: {"commit"=>"Create Post", "post"=>{"body"=>"", "title"=>"", "published"=>"0"}, "authenticity_token"=>"IOJiK0yKEmTBLYZMIfkIgS8jWM6VtuEqcAvC01P/w2Q="}
+Rendering template within layouts/application
+Rendering posts/new
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.new_record?) on line #11 of app/views/posts/new.html.haml:
+8:     = f.input :body, :input_html => {:rows => 8}
+9:     = f.input :published
+10:     
+11:   - f.inputs :title => '<strong>f.inputs(:for => :thing) <span class="fail">*FAIL*</span></strong>', :for => :thing do |g|
+12:     = g.input :name
+13:     = g.input :about
+14:     
+
+    /Library/Ruby/Gems/1.8/gems/justinfrench-formtastic-0.2.4/rails/./lib/formtastic.rb:330:in `semantic_fields_for'
+    /Library/Ruby/Gems/1.8/gems/justinfrench-formtastic-0.2.4/rails/./lib/formtastic.rb:421:in `inputs_for_nested_attributes'
+    /Library/Ruby/Gems/1.8/gems/justinfrench-formtastic-0.2.4/rails/./lib/formtastic.rb:250:in `inputs'
+    app/views/posts/new.html.haml:11:in `_run_haml_app47views47posts47new46html46haml'
+    haml (2.2.7) lib/haml/helpers/action_view_mods.rb:163:in `call'
+    haml (2.2.7) lib/haml/helpers/action_view_mods.rb:163:in `form_for'
+    haml (2.2.7) lib/haml/helpers.rb:542:in `call'
+    haml (2.2.7) lib/haml/helpers.rb:542:in `haml_bind_proc'
+    haml (2.2.7) lib/haml/helpers/action_view_mods.rb:169:in `form_for'
+    /Library/Ruby/Gems/1.8/gems/justinfrench-formtastic-0.2.4/rails/./lib/formtastic.rb:1323:in `semantic_form_for'
+    app/views/posts/new.html.haml:3:in `_run_haml_app47views47posts47new46html46haml'
+    haml (2.2.7) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.7) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/posts_controller.rb:55:in `create'
+    app/controllers/posts_controller.rb:50:in `create'
+    haml (2.2.7) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (51.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PostsController#create (for 127.0.0.1 at 2009-10-12 00:31:58) [POST]
+  Parameters: {"commit"=>"Create Post", "post"=>{"body"=>"", "title"=>"", "published"=>"0"}, "authenticity_token"=>"IOJiK0yKEmTBLYZMIfkIgS8jWM6VtuEqcAvC01P/w2Q="}
+Rendering template within layouts/application
+Rendering posts/new
+Completed in 44ms (View: 10, DB: 0) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#create (for 127.0.0.1 at 2009-10-12 00:32:03) [POST]
+  Parameters: {"commit"=>"Create Post", "post"=>{"body"=>"", "title"=>"2323", "published"=>"0"}, "authenticity_token"=>"IOJiK0yKEmTBLYZMIfkIgS8jWM6VtuEqcAvC01P/w2Q="}
+  [4;36;1mPost Create (18.5ms)[0m   [0;1mINSERT INTO "posts" ("created_at", "title", "body", "published", "updated_at") VALUES('2009-10-11 22:32:03', '2323', '', 'f', '2009-10-11 22:32:03')[0m
+  [4;35;1mThing Create (0.2ms)[0m   [0mINSERT INTO "things" ("name", "created_at", "updated_at", "post_id", "about") VALUES(NULL, '2009-10-11 22:32:03', '2009-10-11 22:32:03', 10, NULL)[0m
+Redirected to http://localhost:3000/posts/10
+Completed in 37ms (DB: 19) | 302 Found [http://localhost/posts]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-10-12 00:32:03) [GET]
+  Parameters: {"id"=>"10"}
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 10) [0m
+Rendering template within layouts/application
+Rendering posts/show
+Completed in 12ms (View: 6, DB: 0) | 200 OK [http://localhost/posts/10]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-10-12 00:32:05) [GET]
+  [4;35;1mPost Load (0.8ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+Completed in 14ms (View: 8, DB: 1) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#new (for 127.0.0.1 at 2009-10-12 00:32:06) [GET]
+Rendering template within layouts/application
+Rendering posts/new
+Completed in 20ms (View: 11, DB: 0) | 200 OK [http://localhost/posts/new]
+
+
+Processing PostsController#create (for 127.0.0.1 at 2009-10-12 00:32:08) [POST]
+  Parameters: {"commit"=>"Create Post", "post"=>{"thing_attributes"=>{"name"=>"", "about"=>""}, "body"=>"", "title"=>"", "published"=>"0"}, "authenticity_token"=>"IOJiK0yKEmTBLYZMIfkIgS8jWM6VtuEqcAvC01P/w2Q="}
+Rendering template within layouts/application
+Rendering posts/new
+Completed in 87ms (View: 73, DB: 0) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#create (for 127.0.0.1 at 2009-10-12 00:32:26) [POST]
+  Parameters: {"commit"=>"Create Post", "post"=>{"body"=>"", "title"=>"", "published"=>"0"}, "authenticity_token"=>"IOJiK0yKEmTBLYZMIfkIgS8jWM6VtuEqcAvC01P/w2Q="}
+Rendering template within layouts/application
+Rendering posts/new
+Completed in 23ms (View: 10, DB: 0) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#create (for 127.0.0.1 at 2009-10-12 00:32:26) [POST]
+  Parameters: {"commit"=>"Create Post", "post"=>{"body"=>"", "title"=>"", "published"=>"0"}, "authenticity_token"=>"IOJiK0yKEmTBLYZMIfkIgS8jWM6VtuEqcAvC01P/w2Q="}
+Rendering template within layouts/application
+Rendering posts/new
+Completed in 26ms (View: 11, DB: 0) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#create (for 127.0.0.1 at 2009-10-12 00:32:27) [POST]
+  Parameters: {"commit"=>"Create Post", "post"=>{"body"=>"", "title"=>"", "published"=>"0"}, "authenticity_token"=>"IOJiK0yKEmTBLYZMIfkIgS8jWM6VtuEqcAvC01P/w2Q="}
+Rendering template within layouts/application
+Rendering posts/new
+Completed in 24ms (View: 10, DB: 0) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#create (for 127.0.0.1 at 2009-10-12 00:32:27) [POST]
+  Parameters: {"commit"=>"Create Post", "post"=>{"body"=>"", "title"=>"", "published"=>"0"}, "authenticity_token"=>"IOJiK0yKEmTBLYZMIfkIgS8jWM6VtuEqcAvC01P/w2Q="}
+Rendering template within layouts/application
+Rendering posts/new
+Completed in 24ms (View: 10, DB: 0) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#create (for 127.0.0.1 at 2009-10-12 00:32:27) [POST]
+  Parameters: {"commit"=>"Create Post", "post"=>{"body"=>"", "title"=>"", "published"=>"0"}, "authenticity_token"=>"IOJiK0yKEmTBLYZMIfkIgS8jWM6VtuEqcAvC01P/w2Q="}
+Rendering template within layouts/application
+Rendering posts/new
+Completed in 24ms (View: 11, DB: 0) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#create (for 127.0.0.1 at 2009-10-12 00:32:28) [POST]
+  Parameters: {"commit"=>"Create Post", "post"=>{"body"=>"", "title"=>"", "published"=>"0"}, "authenticity_token"=>"IOJiK0yKEmTBLYZMIfkIgS8jWM6VtuEqcAvC01P/w2Q="}
+Rendering template within layouts/application
+Rendering posts/new
+Completed in 24ms (View: 10, DB: 0) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#create (for 127.0.0.1 at 2009-10-12 00:32:28) [POST]
+  Parameters: {"commit"=>"Create Post", "post"=>{"body"=>"", "title"=>"", "published"=>"0"}, "authenticity_token"=>"IOJiK0yKEmTBLYZMIfkIgS8jWM6VtuEqcAvC01P/w2Q="}
+Rendering template within layouts/application
+Rendering posts/new
+Completed in 88ms (View: 74, DB: 0) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#create (for 127.0.0.1 at 2009-10-12 00:32:28) [POST]
+  Parameters: {"commit"=>"Create Post", "post"=>{"body"=>"", "title"=>"", "published"=>"0"}, "authenticity_token"=>"IOJiK0yKEmTBLYZMIfkIgS8jWM6VtuEqcAvC01P/w2Q="}
+Rendering template within layouts/application
+Rendering posts/new
+Completed in 25ms (View: 10, DB: 0) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#create (for 127.0.0.1 at 2009-10-12 00:32:29) [POST]
+  Parameters: {"commit"=>"Create Post", "post"=>{"body"=>"", "title"=>"", "published"=>"0"}, "authenticity_token"=>"IOJiK0yKEmTBLYZMIfkIgS8jWM6VtuEqcAvC01P/w2Q="}
+Rendering template within layouts/application
+Rendering posts/new
+Completed in 28ms (View: 11, DB: 0) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#create (for 127.0.0.1 at 2009-10-12 00:32:29) [POST]
+  Parameters: {"commit"=>"Create Post", "post"=>{"body"=>"", "title"=>"", "published"=>"0"}, "authenticity_token"=>"IOJiK0yKEmTBLYZMIfkIgS8jWM6VtuEqcAvC01P/w2Q="}
+Rendering template within layouts/application
+Rendering posts/new
+Completed in 24ms (View: 11, DB: 0) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#new (for 127.0.0.1 at 2009-10-12 00:32:31) [GET]
+Rendering template within layouts/application
+Rendering posts/new
+Completed in 87ms (View: 11, DB: 0) | 200 OK [http://localhost/posts/new]
+
+
+Processing PostsController#create (for 127.0.0.1 at 2009-10-12 00:32:34) [POST]
+  Parameters: {"commit"=>"Create Post", "post"=>{"thing_attributes"=>{"name"=>"", "about"=>""}, "body"=>"", "title"=>"", "published"=>"0"}, "authenticity_token"=>"IOJiK0yKEmTBLYZMIfkIgS8jWM6VtuEqcAvC01P/w2Q="}
+Rendering template within layouts/application
+Rendering posts/new
+Completed in 24ms (View: 9, DB: 0) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index to haml (for 127.0.0.1 at 2009-10-12 00:33:50) [GET]
+  [4;36;1mPost Load (0.8ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Completed in 6ms (View: 1, DB: 1) | 406 Not Acceptable [http://localhost/posts.haml]
+
+
+Processing PostsController#new (for 127.0.0.1 at 2009-10-12 00:34:02) [GET]
+Rendering template within layouts/application
+Rendering posts/new
+Completed in 20ms (View: 12, DB: 0) | 200 OK [http://localhost/posts/new]
+
+
+Processing PostsController#create (for 127.0.0.1 at 2009-10-12 00:34:12) [POST]
+  Parameters: {"commit"=>"Create Post", "post"=>{"thing_attributes"=>{"name"=>"", "about"=>""}, "body"=>"", "title"=>"", "published"=>"0"}, "authenticity_token"=>"IOJiK0yKEmTBLYZMIfkIgS8jWM6VtuEqcAvC01P/w2Q="}
+Rendering template within layouts/application
+Rendering posts/new
+Completed in 89ms (View: 9, DB: 0) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#create (for 127.0.0.1 at 2009-10-12 00:34:17) [POST]
+  Parameters: {"commit"=>"Create Post", "post"=>{"thing_attributes"=>{"name"=>"", "about"=>""}, "body"=>"", "title"=>"232323", "published"=>"0"}, "authenticity_token"=>"IOJiK0yKEmTBLYZMIfkIgS8jWM6VtuEqcAvC01P/w2Q="}
+  [4;35;1mPost Create (0.4ms)[0m   [0mINSERT INTO "posts" ("created_at", "title", "body", "published", "updated_at") VALUES('2009-10-11 22:34:17', '232323', '', 'f', '2009-10-11 22:34:17')[0m
+  [4;36;1mThing Create (0.1ms)[0m   [0;1mINSERT INTO "things" ("name", "created_at", "updated_at", "post_id", "about") VALUES('', '2009-10-11 22:34:17', '2009-10-11 22:34:17', 11, '')[0m
+Redirected to http://localhost:3000/posts/11
+Completed in 18ms (DB: 1) | 302 Found [http://localhost/posts]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-10-12 00:34:17) [GET]
+  Parameters: {"id"=>"11"}
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 11) [0m
+Rendering template within layouts/application
+Rendering posts/show
+Completed in 9ms (View: 3, DB: 0) | 200 OK [http://localhost/posts/11]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-10-12 00:34:19) [GET]
+  [4;36;1mPost Load (0.8ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+Completed in 13ms (View: 8, DB: 1) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#new (for 127.0.0.1 at 2009-10-12 00:34:20) [GET]
+Rendering template within layouts/application
+Rendering posts/new
+Completed in 19ms (View: 11, DB: 0) | 200 OK [http://localhost/posts/new]
+
+
+Processing PostsController#new to haml (for 127.0.0.1 at 2009-10-12 00:34:22) [GET]
+Rendering template within layouts/application
+Rendering posts/new
+Completed in 87ms (View: 13, DB: 0) | 200 OK [http://localhost/posts/new.haml]
+
+
+Processing PostsController#create (for 127.0.0.1 at 2009-10-12 00:34:24) [POST]
+  Parameters: {"commit"=>"Create Post", "post"=>{"body"=>"", "title"=>"23232", "published"=>"0"}, "authenticity_token"=>"IOJiK0yKEmTBLYZMIfkIgS8jWM6VtuEqcAvC01P/w2Q="}
+  [4;35;1mPost Create (0.4ms)[0m   [0mINSERT INTO "posts" ("created_at", "title", "body", "published", "updated_at") VALUES('2009-10-11 22:34:24', '23232', '', 'f', '2009-10-11 22:34:24')[0m
+  [4;36;1mThing Create (0.1ms)[0m   [0;1mINSERT INTO "things" ("name", "created_at", "updated_at", "post_id", "about") VALUES(NULL, '2009-10-11 22:34:24', '2009-10-11 22:34:24', 12, NULL)[0m
+Redirected to http://localhost:3000/posts/12
+Completed in 17ms (DB: 1) | 302 Found [http://localhost/posts]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-10-12 00:34:24) [GET]
+  Parameters: {"id"=>"12"}
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 12) [0m
+Rendering template within layouts/application
+Rendering posts/show
+Completed in 9ms (View: 3, DB: 0) | 200 OK [http://localhost/posts/12]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-10-12 00:34:26) [GET]
+  [4;36;1mPost Load (0.9ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+Completed in 14ms (View: 9, DB: 1) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#edit (for 127.0.0.1 at 2009-10-12 00:34:28) [GET]
+  Parameters: {"id"=>"9"}
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 9) [0m
+  [4;36;1mThing Load (0.2ms)[0m   [0;1mSELECT * FROM "things" WHERE ("things".post_id = 9) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering posts/edit
+Completed in 21ms (View: 11, DB: 0) | 200 OK [http://localhost/posts/9/edit]
+
+
+Processing PostsController#update (for 127.0.0.1 at 2009-10-12 00:34:31) [PUT]
+  Parameters: {"commit"=>"Save Post", "post"=>{"thing_attributes"=>{"name"=>"2323", "about"=>"2323"}, "body"=>"wewewe", "title"=>"23232", "published"=>"0"}, "authenticity_token"=>"IOJiK0yKEmTBLYZMIfkIgS8jWM6VtuEqcAvC01P/w2Q=", "id"=>"9"}
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 9) [0m
+  [4;36;1mThing Load (0.2ms)[0m   [0;1mSELECT * FROM "things" WHERE ("things".post_id = 9) LIMIT 1[0m
+  [4;35;1mThing Create (0.4ms)[0m   [0mINSERT INTO "things" ("name", "created_at", "updated_at", "post_id", "about") VALUES('2323', '2009-10-11 22:34:31', '2009-10-11 22:34:31', 9, '2323')[0m
+Redirected to http://localhost:3000/posts/9
+Completed in 19ms (DB: 1) | 302 Found [http://localhost/posts/9]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-10-12 00:34:32) [GET]
+  Parameters: {"id"=>"9"}
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 9) [0m
+Rendering template within layouts/application
+Rendering posts/show
+Completed in 9ms (View: 3, DB: 0) | 200 OK [http://localhost/posts/9]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-10-12 00:34:33) [GET]
+  [4;35;1mPost Load (0.9ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+Completed in 14ms (View: 8, DB: 1) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#edit (for 127.0.0.1 at 2009-10-12 00:34:36) [GET]
+  Parameters: {"id"=>"12"}
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 12) [0m
+  [4;35;1mThing Load (0.3ms)[0m   [0mSELECT * FROM "things" WHERE ("things".post_id = 12) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering posts/edit
+Completed in 21ms (View: 11, DB: 0) | 200 OK [http://localhost/posts/12/edit]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-10-12 00:34:37) [GET]
+  [4;36;1mPost Load (0.9ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+Completed in 14ms (View: 9, DB: 1) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#edit (for 127.0.0.1 at 2009-10-12 00:34:39) [GET]
+  Parameters: {"id"=>"11"}
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 11) [0m
+  [4;36;1mThing Load (1.5ms)[0m   [0;1mSELECT * FROM "things" WHERE ("things".post_id = 11) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering posts/edit
+Completed in 26ms (View: 11, DB: 2) | 200 OK [http://localhost/posts/11/edit]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-10-12 00:34:40) [GET]
+  [4;35;1mPost Load (1.1ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+Completed in 15ms (View: 9, DB: 1) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#edit (for 127.0.0.1 at 2009-10-12 00:34:42) [GET]
+  Parameters: {"id"=>"9"}
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 9) [0m
+  [4;35;1mThing Load (0.3ms)[0m   [0mSELECT * FROM "things" WHERE ("things".post_id = 9) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering posts/edit
+Completed in 22ms (View: 11, DB: 1) | 200 OK [http://localhost/posts/9/edit]
+
+
+Processing PostsController#edit to haml (for 127.0.0.1 at 2009-10-12 00:34:47) [GET]
+  Parameters: {"id"=>"9"}
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 9) [0m
+  [4;35;1mThing Load (0.3ms)[0m   [0mSELECT * FROM "things" WHERE ("things".post_id = 9) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering posts/edit
+Completed in 30ms (View: 19, DB: 1) | 200 OK [http://localhost/posts/9/edit.haml]

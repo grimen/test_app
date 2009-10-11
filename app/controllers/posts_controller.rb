@@ -21,9 +21,8 @@ class PostsController < ApplicationController
   # GET /posts/new
   def new
     @post = Post.new
-    @thing = @post.build_thing    
+    @post.build_thing
     template_format = params[:format] || 'erb'
-    
     #firebug.debug 'Check 1-2-1'
     
     respond_to do |format|
@@ -35,24 +34,26 @@ class PostsController < ApplicationController
   # GET /posts/1/edit
   def edit
     @post = Post.find(params[:id])
+    @post.build_thing unless @post.thing.present?
     template_format = params[:format] || 'erb'
     
     respond_to do |format|
-      format.all { render "edit.html.#{template_format}", :content_type => "text/html", :layout => 'application.html'  }
-      # format.html { render "edit.html.#{template_format}" }
+      format.all { render "edit.html.#{template_format}", :content_type => "text/html", :layout => 'application.html' }
     end
   end
 
   # POST /posts
   def create
     @post = Post.new(params[:post])
-
+    @post.build_thing unless @post.thing.present?
+    template_format = params[:format] || 'erb'
+    
     respond_to do |format|
       if @post.save
         flash[:notice] = 'Post was successfully created.'
         format.html { redirect_to(@post) }
       else
-        format.html { render :action => "new" }
+        format.all { render "new.html.#{template_format}", :content_type => "text/html", :layout => 'application.html' }
       end
     end
   end
@@ -66,7 +67,7 @@ class PostsController < ApplicationController
         flash[:notice] = 'Post was successfully updated.'
         format.html { redirect_to(@post) }
       else
-        format.html { render :action => "edit" }
+        format.all { render "edit.html.#{template_format}", :content_type => "text/html", :layout => 'application.html' }
       end
     end
   end
