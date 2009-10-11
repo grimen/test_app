@@ -1,0 +1,58 @@
+%h1 Edit post
+
+- semantic_form_for(@post, :html => {:class => 'validate'}) do |f|
+  = f.error_messages
+  
+  - f.inputs :title => '<strong>semantic_form_for(@post) do |f|</strong>' do
+    = f.input :title
+    = f.input :body, :input_html => {:rows => 8}
+    = f.input :published
+    
+  - f.inputs :title => '<strong>f.inputs(:for => @post.thing) <span class="fail">*FAIL*</span></strong>', :for => :thing do |g|
+    = g.input :name
+    = g.input :about, :input_html => {:rows => 8}
+    
+  - f.buttons do
+    = f.commit_button
+
+%hr
+
+- form_for(@post, :html => {:class => "formtastic"}) do |f|
+  = f.error_messages
+  
+  %fieldset
+    %legend
+      %span
+        %strong form_for(@post) do |f|
+    %ol
+      %li
+        = f.label :title
+        = f.text_field :title
+      %li
+        = f.label :body
+        = f.text_area :body, :rows => 8
+      %li
+        = f.label :published
+        = f.check_box :published
+        
+  %fieldset
+    %legend
+      %span
+        %strong f.fields_for(@post.thing)
+    %ol
+      - f.fields_for @post.thing do |g|
+        %li
+          = g.label :name
+          = g.text_field :name
+        %li
+          = g.label :about
+          = g.text_area :about, :rows => 8
+          
+  %fieldset
+    %ol
+      %li.commit= f.submit 'Update Post'
+    
+%p.links
+  = link_to 'Show', @post
+  |
+  = link_to 'Back', posts_path

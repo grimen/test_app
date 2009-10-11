@@ -1,0 +1,24 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+       "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <title>Posts: <%= controller.action_name %></title>
+  <%= stylesheet_link_tag 'application' %>
+  <%= javascript_include_tag 'v2.standalone.full.min.js', 'validatious.config.js' %>
+  <%#= javascript_for_validatious %>
+  <%= firebug_logs %>
+</head>
+<body>
+
+<p style="color: green"><%= flash[:notice] %></p>
+
+<%= link_to 'ERB', url_for(:controller => controller.controller_name, :action => controller.action_name, :format => :erb) %>
+|
+<%= link_to 'HAML', url_for(:controller => controller.controller_name, :action => controller.action_name, :format => :haml)%>
+
+<%= yield %>
+
+</body>
+</html>
