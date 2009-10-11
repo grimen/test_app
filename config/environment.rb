@@ -16,7 +16,6 @@ Rails::Initializer.run do |config|
 
   # Specify gems that this application depends on and have them installed with rake gems:install
   #config.gem 'validatious-on-rails'
-  config.gem 'justinfrench-formtastic', :lib => 'formtastic'
   config.gem 'validation_reflection'
 
   # Only load the plugins named here, in the order given (default is alphabetical).

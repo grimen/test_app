@@ -8169,3 +8169,57 @@ Processing PostsController#edit to haml (for 127.0.0.1 at 2009-10-12 00:34:47) [
 Rendering template within layouts/application
 Rendering posts/edit
 Completed in 30ms (View: 19, DB: 1) | 200 OK [http://localhost/posts/9/edit.haml]
+
+
+Processing PostsController#new (for 127.0.0.1 at 2009-10-12 00:49:00) [GET]
+Rendering template within layouts/application
+Rendering posts/new
+Completed in 174ms (View: 46, DB: 0) | 200 OK [http://localhost/posts/new]
+
+
+Processing PostsController#new to haml (for 127.0.0.1 at 2009-10-12 00:49:04) [GET]
+Rendering template within layouts/application
+Rendering posts/new
+Completed in 29ms (View: 20, DB: 0) | 200 OK [http://localhost/posts/new.haml]
+
+
+Processing PostsController#new to erb (for 127.0.0.1 at 2009-10-12 00:49:05) [GET]
+Rendering template within layouts/application
+Rendering posts/new
+Completed in 20ms (View: 11, DB: 0) | 200 OK [http://localhost/posts/new.erb]
+
+
+Processing PostsController#new to haml (for 127.0.0.1 at 2009-10-12 00:49:06) [GET]
+Rendering template within layouts/application
+Rendering posts/new
+Completed in 88ms (View: 79, DB: 0) | 200 OK [http://localhost/posts/new.haml]
+
+
+Processing PostsController#new to erb (for 127.0.0.1 at 2009-10-12 00:49:08) [GET]
+Rendering template within layouts/application
+Rendering posts/new
+Completed in 21ms (View: 12, DB: 0) | 200 OK [http://localhost/posts/new.erb]
+
+
+Processing PostsController#new to haml (for 127.0.0.1 at 2009-10-12 00:49:08) [GET]
+Rendering template within layouts/application
+Rendering posts/new
+Completed in 20ms (View: 12, DB: 0) | 200 OK [http://localhost/posts/new.haml]
+
+
+Processing PostsController#new to haml (for 127.0.0.1 at 2009-10-12 00:49:09) [GET]
+Rendering template within layouts/application
+Rendering posts/new
+Completed in 21ms (View: 12, DB: 0) | 200 OK [http://localhost/posts/new.haml]
+
+
+Processing PostsController#new to erb (for 127.0.0.1 at 2009-10-12 00:49:10) [GET]
+Rendering template within layouts/application
+Rendering posts/new
+Completed in 91ms (View: 82, DB: 0) | 200 OK [http://localhost/posts/new.erb]
+
+
+Processing PostsController#new to haml (for 127.0.0.1 at 2009-10-12 00:49:11) [GET]
+Rendering template within layouts/application
+Rendering posts/new
+Completed in 24ms (View: 12, DB: 0) | 200 OK [http://localhost/posts/new.haml]
