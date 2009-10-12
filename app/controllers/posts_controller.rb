@@ -24,7 +24,7 @@ class PostsController < ApplicationController
     @post.build_thing
     template_format = params[:format] || 'erb'
     #firebug.debug 'Check 1-2-1'
-    
+    # I18n.locale = 'sv'
     respond_to do |format|
       format.all { render "new.html.#{template_format}", :content_type => "text/html", :layout => 'application.html' }
       #format.haml { render "new.html.#{template_format}" }

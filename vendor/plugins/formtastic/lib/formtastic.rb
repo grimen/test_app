@@ -242,6 +242,7 @@ module Formtastic #:nodoc:
       html_options = args.extract_options!
       html_options[:class] ||= "inputs"
 
+      
       if html_options[:for]
         inputs_for_nested_attributes(args, html_options, &block)
       elsif block_given?
@@ -408,11 +409,11 @@ module Formtastic #:nodoc:
         raise ArgumentError, 'You gave :for option with a block to inputs method, ' <<
                              'but the block does not accept any argument.' if block.arity <= 0
 
-        proc { |f| f.inputs(*args){ block.call(f) } }
+        proc { |f| f.inputs(*args) { yield(f) }}
       else
         proc { |f| f.inputs(*args) }
       end
-
+      
       fields_for_args = [options.delete(:for), options.delete(:for_options) || {}].flatten
       semantic_fields_for(*fields_for_args, &fields_for_block)
     end
@@ -984,7 +985,13 @@ module Formtastic #:nodoc:
       legend %= parent_child_index(html_options[:parent]) if html_options[:parent]
       legend  = template.content_tag(:legend, template.content_tag(:span, legend)) unless legend.blank?
 
-      contents = template.capture(&block) if block_given?
+      if block_given?
+        contents = if template.respond_to?(:is_haml?) && template.is_haml?
+          template.capture_haml(&block)
+        else
+          template.capture(&block)
+        end
+      end
 
       # Ruby 1.9: String#to_s behavior changed, need to make an explicit join.
       contents = contents.join if contents.respond_to?(:join)

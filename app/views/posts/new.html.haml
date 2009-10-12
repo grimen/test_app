@@ -10,7 +10,7 @@
     
   - f.inputs :title => '<strong>f.inputs(:for => :thing) <span class="fail">*FAIL*</span></strong>', :for => :thing do |g|
     = g.input :name
-    = g.input :about
+    = g.input :about, :input_html => {:rows => 8}
     
   - f.buttons do
     = f.commit_button
@@ -41,7 +41,7 @@
         %li.string
           = g.label :name
           = g.text_field :name
-        %li.string
+        %li.text
           = g.label :about
           = g.text_area :about, :rows => 8
           

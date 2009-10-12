@@ -3,3 +3,23 @@
 
 en:
   hello: "Hello world"
+  
+  activerecord:
+    attributes:
+      post:
+        title: Title (I18n)
+        body: Body (I18n)
+      thing:
+        name: Name (I18n)
+        about: About (I18n)
+      
+pl: 
+  activerecord:
+    attributes:
+      post:
+        title: Titel
+        body: Innehåll
+      thing:
+        name: Namn
+        about: Om
+    

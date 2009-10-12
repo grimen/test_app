@@ -23,13 +23,13 @@
       %span
         %strong form_for(@post) do |f|
     %ol
-      %li
+      %li.string
         = f.label :title
         = f.text_field :title
-      %li
+      %li.text
         = f.label :body
         = f.text_area :body, :rows => 8
-      %li
+      %li.boolean
         = f.label :published
         = f.check_box :published
         
@@ -39,10 +39,10 @@
         %strong f.fields_for(:thing)
     %ol
       - f.fields_for :thing do |g|
-        %li
+        %li.string
           = g.label :name
           = g.text_field :name
-        %li
+        %li.text
           = g.label :about
           = g.text_area :about, :rows => 8
           
